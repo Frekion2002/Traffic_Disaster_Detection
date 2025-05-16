@@ -28,6 +28,16 @@
 - 같은 실수를 하지 않기 위한 데이터 셋 속 비어있는 파일의 여부를 알 수 있는 코드 작성
 - YOLO를 학습하다보면 새롭게 생기는 캐시로 인해 오류를 야기할 수 있으므로 캐시를 삭제하는 코드 작성
 - 데이터 셋을 삭제했으므로, 현재 남아 있는 데이터의 각 클래스 별 데이터의 균형을 유지하기 위해서 각 클래스 별 데이터 개수 확인 코드 작성
-- 확인 결과 train data에 class가 3개만 등장하는 것을 확인하였고 이는 0번 class인 flood 데이터가 전부 사라졌음을 의미
+- 확인 결과 train data에 class가 3개만 등장하는 것을 확인하였고 이는 0번 class인 flood 데이터가 전부 사라졌음을 의미(flood data가 전부 segmentation data였음)
 - 전체 클래스의 segmentation용 label 데이터들을 bounding box label로 변경하는 작업 수행
 - 싱크홀에 대한 사진 데이터 추가.
+- 테스트 결과 accident에 대한 detection 성능이 낮아서 해당 class에 대한 threshold값을 0.5 -> 0.2로 낮춤 (아래는 결과)
+---                           images     instances Precision	 Recall	    F1-score	 IoU
+                   all        561        687        0.879      0.748      0.837      0.586
+                 flood        135        207        0.839      0.654      0.755      0.606
+                  fire        106        142         0.95      0.944       0.97      0.651
+              accident        236        249        0.844      0.635      0.769      0.461
+              sinkhole         84         89        0.882      0.757      0.853      0.627
+---
+- fire는 매우 잘 검출되고, 나머지 클래스는 Precision은 양호하지만 Recall이 낮아 놓치는 경우가 많음
+- 전체적으로 fire를 제외한 클래스의 Recall과 IoU 개선이 필요
