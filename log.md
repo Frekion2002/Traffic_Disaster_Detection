@@ -32,6 +32,6 @@
 - 전체 클래스의 segmentation용 label 데이터들을 bounding box label로 변경하는 작업 수행
 - 싱크홀에 대한 사진 데이터 추가.
 - 테스트 결과 accident에 대한 detection 성능이 낮아서 해당 class에 대한 threshold값을 0.5 -> 0.2로 낮춤 (아래는 결과)
-- ![image](https://github.com/user-attachments/assets/50828a15-af8a-49ae-84f1-8e871fcca0a7)
+  ![image](https://github.com/user-attachments/assets/50828a15-af8a-49ae-84f1-8e871fcca0a7)
 - fire는 매우 잘 검출되고, 나머지 클래스는 Precision은 양호하지만 Recall이 낮아 놓치는 경우가 많음
 - 전체적으로 fire를 제외한 클래스의 Recall과 IoU 개선이 필요
