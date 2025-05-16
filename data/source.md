@@ -14,3 +14,8 @@
 
 ### sink hole dataset
 - https://universe.roboflow.com/search?q=sink%2520hole
+
+
+0516
+- 싱크홀 데이터 보충
+- flood data 세그멘테이션을 box로 봐꿈
