@@ -35,3 +35,9 @@
   ![image](https://github.com/user-attachments/assets/50828a15-af8a-49ae-84f1-8e871fcca0a7)
 - fire는 매우 잘 검출되고, 나머지 클래스는 Precision은 양호하지만 Recall이 낮아 놓치는 경우가 많음
 - 전체적으로 fire를 제외한 클래스의 Recall과 IoU 개선이 필요
+
+### 0520 화요일
+- Recall을 늘리기 위한 Threshold 값을 낮추려 했지만 이미 accident의 경우 0.2로 낮은 상태라서 더 낮추면 Precision이 낮아질 가능성이 높음
+- 결국 optuna에서 threshold도 최적화 해야할 하이퍼파라미터로 설정하고, 자동적으로 찾도록 함
+- image 해상도를 640으로 했었지만, 더 높은 성능을 위해 800으로 변경
+- epoch을 20에서 50으로 바꾼 후 정확도를 높임과 동시에 의미없는 학습을 진행할 경우 조기에 멈출 수 있도록 Patience 를 20으로 설정
