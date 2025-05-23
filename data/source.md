@@ -15,9 +15,16 @@
 - https://universe.roboflow.com/accident-and-nonaccident/accident-and-non-accident-label-image-dataset/dataset/14
 
 ### sink hole dataset
-- https://universe.roboflow.com/search?q=sink%2520hole
+- [https://universe.roboflow.com/search?q=sink%2520hole](https://universe.roboflow.com/school-9zcc8/sinkhole-dataset/dataset/1)
 
 
 0516
 - 싱크홀 데이터 보충
-- flood data 세그멘테이션을 box로 봐꿈
+- flood data 세그멘테이션을 box로 바꿈
+
+0522
+- 하드 샘플 마이닝을 위해 prediction data 중 FN/FP 데이터를 나눔
+
+0523
+- 하드 샘플 마이닝을 위해 FN/FP를 증강하여 training 데이터에 추가
+- 줄어든 test data를 보강하기 위해  flood, fire, accident, sinkhole 모두 데이터 보강
