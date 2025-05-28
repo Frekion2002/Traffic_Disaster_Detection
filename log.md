@@ -78,6 +78,9 @@
 - 불 예측에 성공한 사례
   ![image](https://github.com/user-attachments/assets/b4afe271-f065-4294-a9a6-b129a5f737df)
 
+- 아무일도 일어나지 않은 평온한 상태에서 잘못된 판단을 하는지 확인하는 사례
+  ![image](https://github.com/user-attachments/assets/02d4bc20-1b85-440a-a7f9-6904a73837ff)
+
 - 사고 예측에 실패한 사례
   ![image](https://github.com/user-attachments/assets/d418e26d-9245-47db-a3da-2b786ca8458e)
 - 실패 원인 분석으로는 차가 겹쳐있는 경우 사고라고 오판하는 경우가 잦음
