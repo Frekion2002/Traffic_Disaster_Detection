@@ -75,5 +75,14 @@
 
 ### 0528 수요일
 - openCV를 통해 cctv 영상에 모델이 직접 bounding box를 그린 결과를 실시간으로 확인하는 코드 작성
+- 불 예측에 성공한 사례
   ![image](https://github.com/user-attachments/assets/b4afe271-f065-4294-a9a6-b129a5f737df)
+
+- 사고 예측에 실패한 사례
+  ![image](https://github.com/user-attachments/assets/d418e26d-9245-47db-a3da-2b786ca8458e)
+- 실패 원인 분석으로는 차가 겹쳐있는 경우 사고라고 오판하는 경우가 잦음
+- 이를 보완하기 위해 재난 발생 조건을 구축했기 때문에 실제 사고가 났다고 알리지는 않지만 오판을 하는 건 옳지 않다고 판단
+- 따라서 잘못된 탐지를 줄이기 위한 방안 모색이 필요함을 느낌
+
+
 
