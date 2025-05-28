@@ -72,3 +72,8 @@
 - Youtube에서 클래스별 CCTV/뉴스 영상 수집
 - 수집된 영상으로 코드 테스트 진행하며 코드 내의 클래스 별 threshold 조정
 - 부족한 교통 데이터 환경을 극복하고자 현장에서 비디오 촬영후 테스트
+
+### 0528 수요일
+- openCV를 통해 cctv 영상에 모델이 직접 bounding box를 그린 결과를 실시간으로 확인하는 코드 작성
+- ![image](https://github.com/user-attachments/assets/b4afe271-f065-4294-a9a6-b129a5f737df)
+
