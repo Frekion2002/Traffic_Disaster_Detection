@@ -75,5 +75,5 @@
 
 ### 0528 수요일
 - openCV를 통해 cctv 영상에 모델이 직접 bounding box를 그린 결과를 실시간으로 확인하는 코드 작성
-- ![image](https://github.com/user-attachments/assets/b4afe271-f065-4294-a9a6-b129a5f737df)
+  ![image](https://github.com/user-attachments/assets/b4afe271-f065-4294-a9a6-b129a5f737df)
 
