@@ -60,12 +60,8 @@
 - 해당 프로젝트는 도로 속 재난 탐지 후 사람에게 알릴 수 있는 인공지능 모델 구축이 목표
 - 따라서 Precision보다는 재난 상황을 놓치지 않는 Recall을 높이는게 더 중요하다고 판단
 - 직접 Threshold를 바꿔가며 진행한 결과 0.01일 때가 Precision이 너무 해치지 않음과 동시에 높은 Recall을 확보할 수 있음
-- Class     Images  Instances      Box(P          R      mAP50  mAP50-95)
-  all          561        687      0.883      0.827      0.884      0.668
-  flood        135        207       0.86      0.816       0.85      0.712
-  fire         106        142      0.924      0.965      0.976      0.697
-  accident     236        249      0.902      0.775      0.885      0.626
-  sinkhole      84         89      0.844      0.753      0.824      0.635
+<img width="810" alt="스크린샷 2025-06-04 오후 7 38 50" src="https://github.com/user-attachments/assets/af1ccd53-416d-4c02-ae52-0cf83d0cb84d" />
+
 - 해당 모델을 기반으로 실제 재난 상황을 담은 cctv 영상을 가져와서 Test
 - 고속도로, 시내도로 교통관제용 cctv는 15~30fps로 촬영되는 경우가 많기 때문에 15프레임 단위로 detection을 수행
 - 만약 15프레임씩 연속 5번 이상 detection을 하면 해당 class에 속하는 재난이 발생했다고 알리는 코드 작성
