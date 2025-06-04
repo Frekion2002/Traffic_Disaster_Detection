@@ -53,8 +53,6 @@
 - 구축 완료한 데이터셋을 바탕으로 학습 (epoch 100)
 
 ### 0527 화요일
-- Class     Images   Instances      Box(P          R      mAP50  mAP50-95)
-    all        752         936      0.928      0.857      0.914      0.679
 - 100epoch 학습 결과 가장 좋은 성능을 낸 hyperparameter가 train54 폴더에 best.pt로 저장
 - 해당 모델을 기반으로 Test를 진행 결과 Precision은 0.9이상, Recall 또한 0.8이상의 좋은 성능을 보임
 - 해당 프로젝트는 도로 속 재난 탐지 후 사람에게 알릴 수 있는 인공지능 모델 구축이 목표
