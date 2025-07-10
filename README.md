@@ -131,7 +131,7 @@ road-disaster-detection/
   ![image](https://github.com/user-attachments/assets/b4afe271-f065-4294-a9a6-b129a5f737df)
   
 
-  - 아무일도 일어나지 않은 평온한 상태에서 잘못된 판단을 하는지 확인하는 사례
+- 아무일도 일어나지 않은 평온한 상태에서 잘못된 판단을 하는지 확인하는 사례
   ![image](https://github.com/user-attachments/assets/02d4bc20-1b85-440a-a7f9-6904a73837ff)
 
 
