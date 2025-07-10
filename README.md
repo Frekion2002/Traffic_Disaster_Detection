@@ -99,7 +99,7 @@ road-disaster-detection/
 ## 하이퍼파라미터 차징화
 
 - Optuna 버전의 Bayesian Optimization을 통해 다양한 트랙지 검색
-- 해당 파라미터: LR(1e-4~1e-1), batch(8~32), mosaic(0~1), epoch=50 (fixed)
+- 해당 파라미터: LR(1e-4 ~ 1e-1), batch(8 ~ 32), mosaic(0 ~ 1), epoch=50 (fixed)
 
 ---
 
